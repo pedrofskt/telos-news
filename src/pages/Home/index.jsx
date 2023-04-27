@@ -10,24 +10,26 @@ import cardPrimary from '../../component/BottomCard/Rectangle-227.png'
 import img3 from '../../component/MiddleCard/image-48.png'
 import img4 from '../../component/MiddleCard/image-46.png'
 import MiddleCard from "../../component/MiddleCard/MiddleCard";
-import styles from './styles.css'
+import './styles.css'
 
 export function Home() {
     return (
       <div className="App">
             <Header/>
-            <div>
+            <div className="scrollbar">
                     <div className="container">
-                        <FirstCard/>
-                        <div className="content">
-                            <SecondCard 
-                            text="Por que trabalhar com propósito ?"
-                            img={img}
-                            />
-                            <SecondCard 
-                            text="3 Tendência sobre o futuro do trabalho"
-                            img={img2}
-                            />
+                        <div className="division">
+                            <FirstCard/>
+                            <div className="content">
+                                <SecondCard 
+                                text="Por que trabalhar com propósito ?"
+                                img={img}
+                                />
+                                <SecondCard 
+                                text="3 Tendência sobre o futuro do trabalho"
+                                img={img2}
+                                />
+                            </div>
                         </div>
                     </div>
                 

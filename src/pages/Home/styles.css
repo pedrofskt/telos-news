@@ -23,3 +23,39 @@
     border-radius: 5px;
     background-color: #FEF7FF;
   }
+
+
+  .App {
+    text-align: center;
+  }
+  
+  .scrollbar {
+    margin: 0 auto;
+    width: 1300px;
+    height: 100vh;
+    padding: 0px 3rem;
+    overflow-y: scroll !important;
+  }
+  
+  .scrollbar::-webkit-scrollbar{
+    margin: 5rem;
+    width: 12px;
+    background: rgba(29, 27, 32, 0.12);
+    
+  }
+  .scrollbar::webkit-scrollbar-track {
+    background: rgba(29, 27, 32, 0.12);
+  }
+  
+  .scrollbar::-webkit-scrollbar-thumb{
+    background: #1D1B20;
+  }
+
+  .division{
+    display: flex;
+    flex-direction: row;
+    gap: 140px;
+    aling-itens: flex-start;
+    justify-content: center;
+  }
+  
