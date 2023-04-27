@@ -16,7 +16,7 @@ export function Home() {
     return (
       <div className="App">
             <Header/>
-            <div className="global">
+            <div>
                     <div className="container">
                         <FirstCard/>
                         <div className="content">
@@ -31,20 +31,20 @@ export function Home() {
                         </div>
                     </div>
                 
-                    <div className="sectionCardprimary">
+                    <div className="middleCard">
                         <MiddleCard
                             text="Negócios"
                             img={img3}
                         />
                     </div>
-                    <div className="sectionCardsegundary">
+                    <div className="middleCard">
                         <MiddleCard
                             text=""
                             img={img4}
                         />
                     </div>
 
-                    <div className="footerCard">
+                    <div className="bottomCard">
                         <BottomCard
                         title = " Mercado de Trabalho"
                         image={cardPrimary}

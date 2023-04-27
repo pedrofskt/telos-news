@@ -11,14 +11,14 @@
      gap: 70px;
   }
   
-  .sectionCardprimary, .sectionCardsegundary, .footerCard{
+  .middleCard, .bottomCard{
     display: flex;
     gap: 48px;
     justify-content: center;
     margin: 100px 0px;
   }
   
-  .footerCard {
+  .bottomCard {
     padding: 2rem;
     border-radius: 5px;
     background-color: #FEF7FF;
