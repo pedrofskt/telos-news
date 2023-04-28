@@ -4,6 +4,8 @@ import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
+import { Link } from 'react-router-dom';
+
 
 
 
@@ -25,6 +27,7 @@ export default function SecondCard({text, img}) {
       <CardActions
       sx={{borderTop: "1px solid #CAC4D0", padding: "13px 0px"}}
       >
+      <Link to="./Noticia" style={{ background: "#6750A4", padding: "11px 25px", color: "white", fontWeight: "bold", borderRadius: "180px", textDecoration: "none"}} size="small">Ler Agora</Link>
       </CardActions>
     </Card>
   );
