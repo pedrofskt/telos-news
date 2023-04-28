@@ -20,7 +20,7 @@ export function Home() {
                     <div className="container">
                         <div className="division">
                             <FirstCard/>
-                            <div className="content">
+                            <div className="content5">
                                 <SecondCard 
                                 text="Por que trabalhar com propósito ?"
                                 img={img}
