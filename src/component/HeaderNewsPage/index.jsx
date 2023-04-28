@@ -5,8 +5,8 @@ import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 
 
-import LoginButton from '../LoginButton/LoginButton'
 import img from './Caminho-19043.png'
+import LoginButtonNewsPage from "../LoginButtonNewsPage";
 
 
 export default function HeaderNewsPage() {
@@ -28,7 +28,7 @@ export default function HeaderNewsPage() {
             <img src={img} alt="Logo" />
             Télos
           </Typography>
-          <LoginButton />
+          <LoginButtonNewsPage />
         </Toolbar>
       </AppBar>
     </Box>
