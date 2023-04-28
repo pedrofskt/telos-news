@@ -7,6 +7,7 @@ import Typography from "@mui/material/Typography";
 
 import img from './Caminho-19043.png'
 import LoginButtonNewsPage from "../LoginButtonNewsPage";
+import { Link } from "react-router-dom";
 
 
 export default function HeaderNewsPage() {
@@ -26,7 +27,7 @@ export default function HeaderNewsPage() {
             </Typography>
           <Typography variant="h6" component="div" sx={{display: "flex", alignItems: "center", gap: "4px"}}>
             <img src={img} alt="Logo" />
-            Télos
+            <Link to="/" size="small">Télos</Link>
           </Typography>
           <LoginButtonNewsPage />
         </Toolbar>
