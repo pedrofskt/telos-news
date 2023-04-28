@@ -1,0 +1,17 @@
+.comment {
+    display: flex;
+    align-itens: start;
+    flex-direction: column;
+    
+  }
+
+  .comment h1{
+    font-family: "Campton"
+  }
+
+  .comment img{
+   max-width: 80vh;
+   margin: 0vh 40vh
+  }
+
+
