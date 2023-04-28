@@ -5,8 +5,8 @@
   bottom: 3vh;
   left: 10vw;
   position: relative; /* ou absolute */
-  top: 30vh;
-  align-items: start;
+  top: 7vh;
+  text-align: left;
 }
 
 .content1 {
@@ -58,7 +58,7 @@ strong {
 @media screen and (min-width: 1861px) {
   .container1 {
     left: 15vw;
-    top: 40vh;
+    top: 20vh;
     bottom: auto;
   }
 

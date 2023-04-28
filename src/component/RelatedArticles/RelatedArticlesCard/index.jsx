@@ -12,7 +12,7 @@ export default function RelatedArticlesCard() {
             <h1 style={{marginBottom: "5rem"}}>Artigos relacionados</h1>
             <div>
             <div>
-                <div className="content">
+                <div className="content2">
                 <div>
                     <img src={img1} alt="" />
                     <div>
