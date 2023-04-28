@@ -5,7 +5,7 @@
     align-items: flex-start;
     gap: 4rem;
     padding: 1rem 3rem;
-    margin-top: 1000px;
+    margin-top: 50vh;
   }
   
   .Noticia {
@@ -17,6 +17,7 @@
   
   .Noticia img {
     margin: 45px 0px;
+    max-width: 100vh
   }
   
 
@@ -55,4 +56,40 @@
     line-height: 25px;
     font-size: 15px;
   }
+
+  /* estilos para telas maiores de 1861px */
+@media screen and (min-width: 1861px) {
+
+  .geral {
+    gap: 6rem;
+    padding: 2rem 4rem;
+    margin-top: 60vh;
+  }
+
+  .Noticia img {
+    margin: 60px 0px;
+    max-width: 120vh;
+  }
+
+  h1 {
+    font-size: 35px;
+    line-height: 40px;
+  }
+
+  h1:last-child {
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  p {
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  ul {
+    font-size: 18px;
+    line-height: 28px;
+  }
+}
+
   

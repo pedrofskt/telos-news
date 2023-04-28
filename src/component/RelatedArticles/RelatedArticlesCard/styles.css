@@ -13,8 +13,9 @@
     junstify-content: center;
     align-itens: center;
     text-align: center;
-    gap: 7vh;
+    gap: 13vh;
     flex-direction: row;
+    padding: 1vh;
   }
   
   .content h1 {
@@ -35,14 +36,14 @@
     text-align: center;
   }
 
-  @media screen and (min-width: 1551px) {
+  @media screen and (min-width: 1861px) {
 
         .geralCard {
           width: 80%;
         }
         
     .content {
-        gap: 26rem;
+        gap: 31em;
     }
     
     .content h1 {
